@@ -1,0 +1,42 @@
+.checklist {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3579f5;
+  width: 743px;
+  margin: auto;
+  margin-top: 4rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.complete-tasks {
+  padding: 1rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  font-size: 3rem;
+  color: white;
+}
+
+.tasks {
+  display: grid;
+  color: white;
+}
+
+.tasks span:nth-child(1) {
+  margin: auto;
+  margin-left: 0;
+  padding-left: 1rem;
+  width: 76px;
+  background: #2364db;
+  border-radius: 40px;
+}
+
+.btn-style {
+  margin-block: auto;
+  width: 170px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  color: #4777ed;
+  background-color: #fff;
+}
